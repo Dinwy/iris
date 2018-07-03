@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4082133887
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 96cfc1093ff8a4de443753e8b9dafde5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sprites/2013-06-09T23-31-42_6.jpg
+- Assets/Sprites/IMG_0369-ANIMATION.gif
+Dependencies: []

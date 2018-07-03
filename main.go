@@ -26,14 +26,10 @@ func main() {
 	// Method:   GET
 	// Resource: http://localhost:8080/ping
 	app.Get("/ping", func(ctx iris.Context) {
-		ctx.WriteString("pong")
+		ctx.WriteString("pong?")
 	})
 
-	// Method:   GET
-	// Resource: http://localhost:8080/hello
-	app.Get("/hello", func(ctx iris.Context) {
-		ctx.JSON(iris.Map{"message": "Hello Iris!"})
-	})
+  app.StaticWeb("/public/", "./public")
 
 	// http://localhost:8080
 	// http://localhost:8080/ping
